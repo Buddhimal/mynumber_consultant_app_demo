@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY NUMBER - get it on time</title>
+	<link rel="stylesheet" type="text/css" href="./styles/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./styles/styles.css">
+	<script type="text/javascript" src="./scripts/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="./scripts/ref.mynumber.js"></script>
+</head>
+<body>
+
+	<div id="phone-viewport">
+		<div id="header">
+			<div id="menu-toggler">
+				<img src="./img/menu-toggle.png" width="100%" />
+			</div>
+			<div class="heading">
+				Manage Clinic Sessions
+			</div>
+		</div>
+		<div id="wizard-step">
+			<img src="./img/registerclinic/wizard-s3.png" width="100%" />
+		</div>
+
+		<div id="select-consultant" class="clearfix">
+			
+			<div class="left-arraow fl" style="width: 25px;">
+				<img src="./img/add-session/left.png" width="100%">
+			</div>
+			<div id="pool-wraper" class="fl" style="width: 332px;">
+				<div class="clearfix">
+					<div id="select-consultant-img" >
+						<img src="./img/add-session/doctor.png" width="100%">
+					</div>
+					<div id="select-consultant-doctor-name">
+						Dr. Nilanthi Alaharuwan 
+					</div>
+				</div>
+			</div>
+			<div class="right-arraow fr" style="width: 25px;">
+				<img src="./img/add-session/right.png" width="100%">
+			</div>
+			
+		</div>
+
+		<div class="padding-regular">
+			<div id="session-content-scroll">
+
+				<div id="session-meta" class="clearfix">
+					<div class="half first">
+						<div class="center" style="width: 30px;">
+							<img src="./img/add-session/patient-icon.png" width="100%" />
+						</div>
+						<div class="avgtime">
+							Avg. Time for a patient
+						</div>
+						<div class="avgtime-time clearfix" style="padding-left: 10px;">
+							<div class="fl time-input">
+								<input type="time" name="" class="" value="16:30:00"  placeholder="16:30:00"/>
+							</div>
+							<div class="fl timer-icon" >
+								<img src="./img/add-session/timer-icon.png" width="100%" />
+							</div>
+						</div>
+					</div>
+					<div class="half last">
+						<div class="center" style="width: 30px;">
+							<img src="./img/add-session/stethescopeicon.png" width="100%" />
+						</div>
+						<div class="avgtime">
+							Patient per day
+						</div>
+						<div class="avgtime-time clearfix">
+							<div class="fl time-input-patients">
+								<input type="number" name="" class="" value="30"  placeholder="30"/>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="days" style="padding-top: 15px;">
+					
+					<div class="day" style="position: relative;">
+						<h4>MONDAY</h4>
+						<div id="on-off-switch" class="on-off-switch on"></div>
+						<div class="day-time-wrap">
+							<input type="time" name="" value="16:30:00" class="time-control starttime">
+							<img src="./img/add-session/timer-icon.png" width="24" />
+							<input type="time" name="" value="19:30:00" class="time-control endtime" style="margin-left: 20px;">
+							<img src="./img/add-session/timer-icon.png" width="24" />
+						</div>
+					</div>
+
+					<div class="day" style="position: relative;">
+						<h4>TUESDAY</h4>
+						<div id="on-off-switch" class="on-off-switch on"></div>
+						<div class="day-time-wrap">
+							<input type="time" name="" value="16:30:00" class="time-control starttime">
+							<img src="./img/add-session/timer-icon.png" width="24" />
+							<input type="time" name="" value="19:30:00" class="time-control endtime" style="margin-left: 20px;">
+							<img src="./img/add-session/timer-icon.png" width="24" />
+						</div>
+					</div>
+
+
+					<div class="day" style="position: relative;">
+						<h4>WEDNESDAY</h4>
+						<div id="on-off-switch" class="on-off-switch on"></div>
+						<div class="day-time-wrap">
+							<input type="time" name="" value="16:30:00" class="time-control starttime">
+							<img src="./img/add-session/timer-icon.png" width="24" />
+							<input type="time" name="" value="19:30:00" class="time-control endtime" style="margin-left: 20px;">
+							<img src="./img/add-session/timer-icon.png" width="24" />
+						</div>
+					</div>
+
+					<div class="day" style="position: relative;">
+						<h4>THURSDAY</h4>
+						<div id="on-off-switch" class="on-off-switch on"></div>
+						<div class="day-time-wrap">
+							<input type="time" name="" value="16:30:00" class="time-control starttime">
+							<img src="./img/add-session/timer-icon.png" width="24" />
+							<input type="time" name="" value="19:30:00" class="time-control endtime" style="margin-left: 20px;">
+							<img src="./img/add-session/timer-icon.png" width="24" />
+						</div>
+					</div>
+
+					<div class="day" style="position: relative;">
+						<h4>FRIDAY</h4>
+						<div id="on-off-switch" class="on-off-switch on"></div>
+						<div class="day-time-wrap">
+							<input type="time" name="" value="16:30:00" class="time-control starttime">
+							<img src="./img/add-session/timer-icon.png" width="24" />
+							<input type="time" name="" value="19:30:00" class="time-control endtime" style="margin-left: 20px;">
+							<img src="./img/add-session/timer-icon.png" width="24" />
+						</div>
+					</div>
+
+					<div class="day" style="position: relative;">
+						<h4>SATURDAY</h4>
+						<div id="on-off-switch" class="on-off-switch on"></div>
+						<div class="day-time-wrap">
+							<input type="time" name="" value="16:30:00" class="time-control starttime">
+							<img src="./img/add-session/timer-icon.png" width="24" />
+							<input type="time" name="" value="19:30:00" class="time-control endtime" style="margin-left: 20px;">
+							<img src="./img/add-session/timer-icon.png" width="24" />
+						</div>
+					</div>
+
+					<div class="day" style="position: relative;">
+						<h4>SUNDAY</h4>
+						<div id="on-off-switch" class="on-off-switch on"></div>
+						<div class="day-time-wrap">
+							<input type="time" name="" value="16:30:00" class="time-control starttime">
+							<img src="./img/add-session/timer-icon.png" width="24" />
+							<input type="time" name="" value="19:30:00" class="time-control endtime" style="margin-left: 20px;">
+							<img src="./img/add-session/timer-icon.png" width="24" />
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<div>
+				<div id="next-btn" style="margin-top:25px;">
+					<a href="session-manage.html" class="btn btn-red-border">Add Sessions</a>
+				</div>
+				<div id="next-btn" style="margin-top:25px;">
+					<a href="holidays-setup.html" class="btn btn-gray">Done</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
